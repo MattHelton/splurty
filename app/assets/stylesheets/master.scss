@@ -1,5 +1,5 @@
 @import "bootstrap";
-
+@import url('https://fonts.googleapis.com/css?family=Coda&display=swap');
 header {
   border-top: 9px solid #222222;
 }
@@ -40,10 +40,25 @@ header {
 
 .links a {
   color: black;
+  font-family: 'caviar_dreamsitalic';
+  font-weight: bold;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
 }
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'caviar_dreamsregular';
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'caviar_dreamsitalic';
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
